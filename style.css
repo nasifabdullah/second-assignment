@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    background: #FFF4E7;
+}
+                /***************
+                    Navbar Style 
+                 ****************/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 240px;
+}
+.logo-title{
+    font-size: 45px;
+    font-weight:700 ;
+    color: #131313;
+}
+.menu-list{
+    display: flex;
+}
+.menu-list li{
+    list-style: none;
+}
+.menu-list a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 25px;
+    transition: 0.3s;
+}
+.menu-list a:hover{
+    color: #FF900E;
+}
+                /***********************
+                 heading banner styles 
+                 *********************/
+.heading{
+    text-align: center;
+    margin-top: 100px;
+}
+.heading-title{
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+}
+.heading-sub-title{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 32px 0;
+}
+.btn-head{
+    border: none;
+}
+.btn-head a{
+    text-decoration: none;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 20px 25px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.btn-head a:hover{
+    background: #ffffff;
+    color: #FF900E;
+    border: 2px solid #FF900E;
+}
+
+.banner img{
+    width: 1440px;
+    height: 700px;
+    padding: 50px 170px 45px 170px;
+}
+                    /*****************************
+                     Features list style section 2
+                     *****************************/
+.features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 300px;
+    margin-top: 85px;
+}
+.features-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    margin-right: 73px;
+    width: 60%;
+}
+.features-img img{
+    width: 260px;
+    height: 260px;
+}
+.features-title{
+    width: 40%;
+}
+.feature-heading-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #FF900E;
+}
+.span1{
+    font-size: 45px;
+    font-weight: 500px;
+    color: #727272;
+}
+.span2{
+    font-size: 45px;
+    font-weight: 700px;
+    color: #131313;
+}
+.feature-subtitle{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+                     /*********************************
+                      experience love and enjoy section 3 
+                      **********************************/
+.experience{
+    display: flex;
+    padding: 0 240px;
+    margin-top: 130px;
+}
+.experience-details{
+    width: 45%;
+    margin-right: 54px;
+}
+.ex-img{
+    width: 55%;
+}
+.ex-img img{
+    width: 575px;
+    height: 962px;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+}
+.experience-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 39px;
+    padding-left: 29px;
+    border-left: 5px solid #FF900E;;
+}
+.ex-sub{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+.experience-sub-title{
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+.item{
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.item-title{
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.ex-btn{
+    font-size: 65px;
+    font-weight: 700;
+    background: #FF900E;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 46px 42px;
+    position: relative;
+    top: 838px;
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.ex-btn-down{
+    font-size:25px;
+    font-weight: 500;
+}
+.ex-btn:hover{
+    background: #ffffff;
+    color: #FF900E;
+    border: 2px solid #FF900E;
+}
+                /*****************************
+                 Extra section style Recent Work 
+                 ******************************/
+.work{
+    padding: 130px 240px;
+}
+.work-title{
+    text-align: center;
+}
+.extra-work{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+   
+  
+}
+.work-1{
+    width:360px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all .4s ease;
+    transform: translateY(0);
+}
+.work-1:hover{
+    transform: translateY(-5px);
+}
+.work-img img{
+    width: 340px;
+    height: 250px;
+    border-radius: 8px;
+}
+.work-img-des{
+    text-align: center;
+}
+.work-img-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.work-author{
+    color:#424242 ;
+    padding-bottom: 20px;
+}
+.work-author a{
+    text-decoration: none;
+    color:#131313 ;
+}
+                /***********************
+                    fact section 4 
+                 ********************/
+.fact{
+    padding: 0 240px;
+}
+.fact-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.fact-sub-title{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+.fact-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px 35px;
+    text-align: center;
+    transition: all .4s ease;
+	transform: translateY(0);
+}
+.box:hover{
+    transform: translateY(-5px);
+}
+.box img{
+    width: 45px;
+    height: 45px;
+}
+.box-title{
+    color: #424242;
+    font-size: 45PX;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.box-sub-title{
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+}
+                    /*********************
+                     sponsor section 5 
+                     ***********************/
+.sponsor{
+    padding: 130px 240px;
+}
+.sponsor-heading{
+    text-align: center;
+}
+.sponsor-img{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sponsor-item{
+    filter: grayscale(100%);
+}
+.sponsor-item:hover{
+    filter: none;
+}
+                    /******************
+                    footer section style
+                    **************** */
+footer{
+    margin: 0 240px;
+    margin-bottom: 130px;
+    background: #FFF4E7;
+}
+.footer-title{
+    color: #424242;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 40px 300px;
+}
+
+
+
+                /************************
+                Responsive Website Design 
+                *************************/
+
+        /*************** Mobile Responsive ******************/
+
+@media only screen and (max-width:576px) {
+    .navbar, .menu-list, .features, .experience, .work, .fact, .sponsor{
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .logo, .menu-list, .heading, .fact{
+        text-align: center;
+    }
+    .heading-banner{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 20px;
+    }
+    .heading-title{
+        font-size: 50px;
+    }
+    .heading{
+        padding: 10px;
+        margin-top: 0;
+    }
+    .banner img{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .features-img{
+        padding-left: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .features-title{
+        width: 100%;
+        padding: 10px;
+    }
+    .experience-details{
+        width: 100%;
+        margin-right: 0;
+    }
+    .ex-img, .ex-img img{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .ex-btn{
+        position: relative;
+        top: 0;
+        font-size: 30px;
+        padding: 10px;
+    }
+    .extra-work{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .work, .fact, .sponsor{
+        margin-top: 50px;
+    }
+    .sponsor{
+        margin-bottom: 50px;
+    }
+    .fact-box{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .sponsor-img{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    footer{
+        margin: 0 auto;
+    }
+    .footer-title{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+}
+
+    /************************* Medium Device responsive ******************/
+
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .navbar, .heading, .features, .experience, .work, .fact, .sponsor{
+        flex-direction: column;
+        padding: 50px;
+    }
+    .logo-title{
+        margin-bottom: 20px;
+    }
+   
+    .banner img{
+        width: 100%;
+        height: 100%;
+        padding: 50px;
+    }
+    .features{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .features-img, .features-img img{
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .features-title, .experience-details, .ex-img,  .fact{
+        width: 100%;
+        text-align: center;
+    }
+    .ex-img img{
+        width: 100%;
+        position: relative;
+    }
+    .ex-btn{
+        top: 0;
+        font-size: 50px;
+        padding: 20px;
+    }
+    .extra-work{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .fact-box{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .sponsor-img{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+        justify-items: center;
+    }
+    footer{
+        margin: 0 auto;
+    }
+    .footer-title{
+        padding: 50px;
+        text-align: center;
+    }
+
+}
+/******************** End Responsive ***************/
