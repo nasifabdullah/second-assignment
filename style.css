@@ -81,7 +81,7 @@ header{
     padding: 50px 170px 45px 170px;
 }
                     /*****************************
-                     Features list style section 2
+                    Quick list Features style section 2
                      *****************************/
 .features{
     display: flex;
@@ -197,8 +197,8 @@ header{
     color: #FF900E;
     border: 2px solid #FF900E;
 }
-                /*****************************
-                 Extra section style Recent Work 
+                /********************************
+                Extra Section Recent Works section 4 
                  ******************************/
 .work{
     padding: 130px 240px;
@@ -248,7 +248,7 @@ header{
     color:#131313 ;
 }
                 /***********************
-                    fact section 4 
+                   Some fact section 5 
                  ********************/
 .fact{
     padding: 0 240px;
@@ -297,7 +297,7 @@ header{
     font-weight: 600;
 }
                     /*********************
-                     sponsor section 5 
+                     sponsor section 6 
                      ***********************/
 .sponsor{
     padding: 130px 240px;
